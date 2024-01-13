@@ -1,0 +1,25 @@
+package springmvc.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class ContactUsController {
+	
+	@RequestMapping("contactus")	
+	public String showform() {
+		return "contactus";
+	}
+	@RequestMapping(path = "/processform" , method = RequestMethod.POST)		//This handler will only work when the processform is called and Method is POST
+	public String handleform(HttpServletRequest request) {
+		String email = request.getParameter("name");
+		System.out.println(email);
+		request.getParameter("email");
+		request.getParameter("password");
+		return "";
+	}
+
+}

@@ -1,0 +1,18 @@
+package springmvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ContactUsController {
+	
+	@RequestMapping("contactus")	
+	public String showform() {
+		return "contactus";
+	}
+	@RequestMapping(path = "/processform" , method = "post")
+	public String handleform() {
+		return "";
+	}
+
+}

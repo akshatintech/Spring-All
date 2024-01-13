@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+G:\Software Computer\Eclipse\eclipse-jee-2021-03-R-win32-x86_64\WebProject1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+151957129.index
+2185000747.index
+261764769.index
+2537463520.index
+485642199.index
+1446278970.index
+1446278970.index
+3446550327.index

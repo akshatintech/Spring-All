@@ -1,0 +1,30 @@
+package string;
+
+public class String1 {
+	public static void  main(String[] args) {
+		String str = "Akshat , Akshyy , Akshyaa";
+		//inverse(str);
+		longestprefix(str);
+		
+		
+	}
+	static void inverse(String str) {
+		for(int i=str.length()-1 ;i>=0;i--) {
+			System.out.print(str.charAt(i));
+		}
+		
+	}
+	
+	static String longestprefix(String[] str) {
+		if(str.length ==0) return "";
+		String prefix = str[0];
+		for(int i =1;i<str.length;i++) {
+			while(str[i].indexOf(prefix) != 0) {
+				prefix=  prefix.substring(0,prefix.length()-1);
+			}
+		}
+		return prefix;
+	}
+}
+prefix = "flower"
+

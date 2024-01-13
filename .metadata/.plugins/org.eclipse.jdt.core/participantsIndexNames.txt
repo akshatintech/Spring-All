@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+G:\Software Computer\Eclipse\eclipse-jee-2021-03-R-win32-x86_64\WebProject1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3490526498.index
+\springmvc\src\main\resources
+G:\Software Computer\Eclipse\eclipse-jee-2021-03-R-win32-x86_64\WebProject1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1446278970.index
+\springmvc\src\main\java

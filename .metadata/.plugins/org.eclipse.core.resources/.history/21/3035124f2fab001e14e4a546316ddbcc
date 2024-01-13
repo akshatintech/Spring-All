@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+</head>
+<body>
+<h1>This is Home Page	</h1>
+<h2>THis is home controller</h2>
+<h3>url /home</h3>
+
+<%
+String name =  (String)request.getAttribute("name");
+Integer id = (Integer)request.getAttribute("id");
+%>
+
+<h1>
+Name is now
+<%=name%>
+</h1>
+
+<h1>
+ID is
+<%=id%></h1>
+</body>
+</html>
